@@ -2,6 +2,8 @@ from asyncio.log import logger
 import logging
 import socket
 import yaml
+from tabulate import tabulate
+
 
 logger = logging.getLogger()
 
@@ -22,3 +24,9 @@ def yml_load(x):
             return yaml.load(f, Loader=yaml.FullLoader)
         except yaml.YAMLError as exc:
             print(exc)
+
+
+def as_table(data, tablefmt: str = "simple"):
+    header = data[0].keys()
+    rows = [x.values() for x in data]
+    return tabulate(rows, header, tablefmt)

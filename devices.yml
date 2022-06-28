@@ -1,4 +1,170 @@
 ---
 devices:
-  - device1
-  - device2
+  # - sds1.165h.ewr
+  # - sds1.aim.lpl
+  # - sds1.cec.prg
+  # - sds1.clx1.yto
+  # - sds1.clx3.ymq
+  # - sds1.cme.chi
+  # - sds1.cs1.den
+  # - sds1.cs1.lax
+  # - sds1.cs1.nyc
+  # - sds1.cs1.sjc
+  # - sds1.cs4.sjc
+  # - sds1.dma.dxb
+  # - sds1.drt1.atl
+  # - sds1.drt1.chi
+  # - sds1.drt1.sfo
+  # - sds1.drt15.phx
+  # - sds1.drt17.ams
+  # - sds1.drt2.nyc
+  # - sds1.drt2.sfo
+  # - sds1.drt20.lon
+  # - sds1.drt21.lon
+  # - sds1.eq1.ams
+  # - sds1.eq1.chi
+  # - sds1.eq1.dfw
+  # - sds1.eq1.hkg
+  # - sds1.eq1.man
+  # - sds1.eq1.mia
+  # - sds1.eq1.sin
+  # - sds1.eq1.sto
+  # - sds1.eq1.syd
+  # - sds1.eq1.waw
+  # - sds1.eq1.yto
+  # - sds1.eq2.fra
+  # - sds1.eq2.iad
+  # - sds1.eq2.man
+  # - sds1.eq2.sea
+  # - sds1.eq2.sjc
+  # - sds1.eq2.tyo
+  # - sds1.eq3.ams
+  # - sds1.eq3.man
+  # - sds1.eq3.par
+  # - sds1.eq4.ewr
+  # - sds1.eq4.lon
+  # - sds1.eq4.man
+  # - sds1.eq4.par
+  # - sds1.eq4.zrh
+  # - sds1.eq7.ams
+  # - sds1.eq8.sjc
+  # - sds1.eq9.lon
+  # - sds1.est1.ymq
+  # - sds1.est1.yyc
+  # - sds1.eth.lon
+  # - sds1.fl2.pdx
+  # - sds1.fl3.den
+  # - sds1.gcc.lon
+  # - sds1.gcc.man
+  # - sds1.gs.sin
+  # - sds1.gs1.lon
+  # - sds1.gs2.lon
+  # - sds1.he2.sjc
+  # - sds1.im1.ams
+  # - sds1.imp1.phx
+  # - sds1.ixn1.par
+  # - sds1.ixn1.vie
+  # - sds1.ixn5.ams
+  # - sds1.lc1.lux
+  # - sds1.lc2.lux
+  # - sds1.mgi.hkg
+  # - sds1.mix.mil
+  # - sds1.mo875.ymq
+  # - sds1.ntt1.fra
+  # - sds1.ntt1.iad
+  # - sds1.ntt1.sac
+  # - sds1.psg.edi
+  # - sds1.q91.yto
+  # - sds1.st1.atl
+  # - sds1.stl1.ncl
+  # - sds1.sw7.las
+  # - sds1.t5.lax
+  # - sds1.tda.man
+  # - sds1.th2.par
+  # - sds1.thn.lon
+  # - sds1.thw.lon
+  # - sds1.ukf6.man
+  # - sds1.vol.lon
+  # - sds1.vx1.aus
+  # - sds1.wsb.sea
+  # - sds1.zc111.nyc
+  # - sds2.clx1.yto
+  # - sds2.cs1.den
+  # - sds2.cs1.lax
+  # - sds2.cs1.sjc
+  # - sds2.drt1.atl
+  # - sds2.drt15.phx
+  # - sds2.eq1.hkg
+  # - sds2.eq1.man
+  # - sds2.eq1.mia
+  # - sds2.eq1.sin
+  # - sds2.eq1.sjc
+  # - sds2.eq2.iad
+  # - sds2.eq2.man
+  # - sds2.eq2.tyo
+  # - sds2.eq4.ewr
+  # - sds2.eq4.par
+  # - sds2.eq7.ams
+  # - sds2.eq9.lon
+  # - sds2.est1.ymq
+  # - sds2.est1.yyc
+  # - sds2.fl2.pdx
+  # - sds2.fl3.den
+  # - sds2.gcc.lon
+  # - sds2.ntt1.sac
+  # - sds2.st1.atl
+  # - sds2.sw7.las
+  # - sds2.tda.man
+  # - sds2.thn.lon
+  # - sds2.ukf6.man
+  # - sds2.vx1.aus
+  # - sds3.clx1.yto
+  # - sds3.thn.lon
+  # - sds4.gcc.lon
+  # - sdx1.aql.lba
+  # - sdx1.clx3.ymq
+  # - sdx1.drt1.nyc
+  # - sdx1.eq1.chi
+  # - sdx1.eq1.gva
+  # - sdx1.eq1.lax
+  # - sdx1.eq1.sjc
+  # - sdx1.eq11.ewr
+  # - sdx1.eq2.ewr
+  # - sdx1.eq2.fra
+  # - sdx1.eq2.iad
+  # - sdx1.eq2.par
+  # - sdx1.eq3.par
+  # - sdx1.eq4.lon
+  # - sdx1.eq4.zrh
+  # - sdx1.eq5.fra
+  # - sdx1.eq7.ams
+  # - sdx1.eq8.lon
+  # - sdx1.gcc.man
+  # - sdx1.gs.ams
+  # - sdx1.ira.mil
+  # - sdx1.ixn1.dub
+  # - sdx1.ixn1.fra
+  # - sdx1.ixn1.lon
+  # - sdx1.ixn1.mad
+  # - sdx1.ixn1.mrs
+  # - sdx1.ixn1.zrh
+  # - sdx1.ixn2.dus
+  # - sdx1.nkf.ams
+  # - sdx1.th2.par
+  # - sdx1.the.lon
+  # - sdx1.thn.lon
+  # - sdx2.drt1.nyc
+  - sdx2.eq3.par
+  - sdx2.eq5.fra
+  - sdx2.eq7.ams
+  - sdx2.eq8.lon
+  - sdx2.gs.ams
+  - sdx2.ixn1.fra
+  - sdx2.ixn1.lon
+  - sdx2.ixn1.mrs
+  - sdx2.ixn1.zrh
+  - sdx2.nkf.ams
+  - sdx2.th2.par
+  - sdx2.the.lon
+  - sdx3.ixn1.fra
+  - sdx3.thn.lon
