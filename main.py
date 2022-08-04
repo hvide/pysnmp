@@ -95,8 +95,8 @@ def main():
         table = utils.as_table(dataset)
         print(table)
 
-        mails = ["davide.gilardoni@bso.co"]
-        subject = "RSVP lsp / path"
+        mails = ["user@example.com"]
+        subject = "Report: RSVP lsp / path"
         content = table
 
         mail = Mail()

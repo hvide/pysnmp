@@ -28,12 +28,3 @@ class Mail:
                 self.sender_mail, email, f"Subject: {subject}\n{content}")
 
         service.quit()
-
-
-# if __name__ == '__main__':
-#     mails = input("Enter emails: ").split()
-#     subject = input("Enter subject: ")
-#     content = input("Enter content: ")
-
-#     mail = Mail()
-#     mail.send(mails, subject, content)

@@ -3,7 +3,7 @@ import os
 import requests
 from urllib.parse import urlencode
 import logging
-from models import Device, SearchOxidizedResult, OspfNbrResult
+from models import Device, SearchOxidizedResult, OspfNbrResult, Port
 from dotenv import load_dotenv
 
 requests.packages.urllib3.disable_warnings()
